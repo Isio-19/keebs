@@ -826,206 +826,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -4304,17 +4104,6 @@
 		)
 		(uuid "2c4db540-a923-48fd-a99e-e5b475ade29e")
 	)
-	(text "OLED Display\nIntended to be used with the \nSSD1306 128x32 pixel display."
-		(exclude_from_sim no)
-		(at 248.158 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "35ca8b60-ad85-4667-a88b-be7ecf1e598a")
-	)
 	(text "OSC32_OUT/TC"
 		(exclude_from_sim no)
 		(at 41.275 46.99 0)
@@ -4968,16 +4757,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 247.65 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e4ee54-f4f4-4102-a693-58fea69fd3b0")
-	)
-	(wire
-		(pts
 			(xy 83.185 49.53) (xy 90.17 49.53)
 		)
 		(stroke
@@ -5288,16 +5067,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 114.3) (xy 247.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2610b2d-a10a-40f5-a410-c56be83f6fdf")
-	)
-	(wire
-		(pts
 			(xy 95.25 128.27) (xy 96.52 128.27)
 		)
 		(stroke
@@ -5425,16 +5194,6 @@
 			(type default)
 		)
 		(uuid "b36aa82c-e8cf-4d92-8af7-41768ab0f636")
-	)
-	(wire
-		(pts
-			(xy 247.65 111.76) (xy 245.11 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e6690c-65df-4422-9b32-cab103caf687")
 	)
 	(wire
 		(pts
@@ -5598,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 111.76) (xy 245.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da05f602-5ce2-4fab-b529-c8d0625895dd")
-	)
-	(wire
-		(pts
 			(xy 70.485 17.78) (xy 70.485 19.05)
 		)
 		(stroke
@@ -5725,16 +5474,6 @@
 			(type default)
 		)
 		(uuid "f62ad5db-4a9d-49b3-a51e-a497b9b20c61")
-	)
-	(wire
-		(pts
-			(xy 241.3 116.84) (xy 247.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b101e7-3960-4cc1-b263-04cd3e70f766")
 	)
 	(wire
 		(pts
@@ -6630,28 +6369,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 241.3 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6cd66d37-a077-42d3-9cc9-68ec15e5adec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7467 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT0"
 		(shape input)
 		(at 50.165 29.21 180)
@@ -6775,28 +6492,6 @@
 		(uuid "9eca5409-1009-4d11-818c-075ae92b1d90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.9743 24.2094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 241.3 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1ae8b14-4909-4642-bd9f-b6b723e36180")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.8072 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,72 +7051,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0697ad62-eba5-49b8-8749-aa4ac80e81df")
-		(property "Reference" "#PWR074"
-			(at 245.11 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d60ffab-001d-4be5-8136-82690163e01f")
-		)
-		(instances
-			(project "modern-keyboard"
-				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 106.045 160.655 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7851,82 +7480,6 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 252.73 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f80feb1-0da5-4408-a28f-64f9089cfa64")
-		(property "Reference" "J3"
-			(at 255.27 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 255.27 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty-master:SSD1306-0.91-OLED-4pin-128x32"
-			(at 252.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "85bacca6-f833-498d-9a48-2d5268596b77")
-		)
-		(pin "2"
-			(uuid "da53f108-c0c5-4b2b-a60d-1b6d3d2d7b08")
-		)
-		(pin "1"
-			(uuid "1193c259-4281-4be0-b598-e5a19c90fca2")
-		)
-		(pin "4"
-			(uuid "dd3ffb2e-dabb-407a-ae55-aef68be71542")
-		)
-		(instances
-			(project "modern-keyboard"
-				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8759,74 +8312,6 @@
 			(project "modern-keyboard"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 241.3 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "554593ba-5fc5-4e8f-9e8f-a347b0fc9ea1")
-		(property "Reference" "#PWR076"
-			(at 245.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 237.49 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fde5786b-d5c1-4830-912f-e49e450f3f24")
-		)
-		(instances
-			(project "modern-keyboard"
-				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
