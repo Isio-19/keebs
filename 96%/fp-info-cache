@@ -1,4 +1,4 @@
-27833935998036988
+27835711286699948
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -76637,6 +76637,13 @@ LED RGB 1206 rear mount reverse
 4
 PCM_marbastlib-various
 LED_6028R
+rear-mount SMD 6028 RGB LED
+LED RGB 6028 rear mount reverse
+0
+4
+4
+PCM_marbastlib-various
+LED_6028R_no_cutout
 rear-mount SMD 6028 RGB LED
 LED RGB 6028 rear mount reverse
 0

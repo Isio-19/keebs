@@ -4388,8 +4388,16 @@
 		(uuid "fa14448a-37e6-46ad-a49d-c027506a3c9e")
 	)
 	(no_connect
+		(at 41.91 74.93)
+		(uuid "155b9f81-23ae-482e-b4d0-f77012cce6e1")
+	)
+	(no_connect
 		(at 45.72 160.02)
 		(uuid "2c145344-00ce-49ea-8d83-3868e4b090eb")
+	)
+	(no_connect
+		(at 41.91 72.39)
+		(uuid "37e69454-8bb4-446f-8d3b-0cc7fe1a7094")
 	)
 	(no_connect
 		(at 45.72 162.56)
@@ -5951,6 +5959,28 @@
 			)
 		)
 	)
+	(global_label "led_input"
+		(shape input)
+		(at 156.21 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "073abbc4-c915-4a0c-b1b6-78c5cfd72922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.5769 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col_0"
 		(shape input)
 		(at 146.05 27.94 90)
@@ -6739,6 +6769,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_output"
+		(shape input)
+		(at 157.48 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d23d164c-8c95-4972-bd02-ed695b196d58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.577 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10662,6 +10714,48 @@
 			(project "96_keeb"
 				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 58.42)
+		(size 15.24 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffc848ad-6cc4-4905-af50-09bb8b410275")
+		(property "Sheetname" "LED Backlight"
+			(at 143.51 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_backlight.kicad_sch"
+			(at 143.51 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "96_keeb"
+				(path "/cb32b2da-a60d-4ed4-a57b-2c397f553171"
+					(page "3")
 				)
 			)
 		)
